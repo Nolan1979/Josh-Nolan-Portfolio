@@ -73,7 +73,7 @@ h1 {
     text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.678);
 }
 
-h2 {
+p {
     font-size: 20px;
     font-family: monospace;
     margin-right: 20px;
@@ -198,7 +198,6 @@ li {
         height: 27vh;
     }
 
-
     .header.header h1 {
         font-size: 65px;
     }
@@ -206,10 +205,6 @@ li {
     .hero {
         width: 100vw;
         height: 40vh;
-    }
-
-    h2 {
-        width: 100vw;
     }
 
     .box-1 {
