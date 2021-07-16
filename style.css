@@ -213,7 +213,7 @@ li {
 
 
 .transition-fade {
-    transition: 1000ms;
+    transition: 2s;
     opacity: 1;
     transform: translateX(0);
     transform-origin: left;
