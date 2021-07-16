@@ -7,6 +7,7 @@
 
 body {
     background: linear-gradient(0deg, #0f1a22d5 30%, rgb(174, 203, 230));
+    
 }
 
 
@@ -237,7 +238,7 @@ html.is-animating .transition-fade {
         font-size: 65px;
     }
 
-    .hero {
+    div.hero {
         width: 100vw;
         height: 40vh;
     }
@@ -294,7 +295,7 @@ html.is-animating .transition-fade {
             font-size: 65px;
         }
     
-        .hero {
+        div.hero {
             width: 100vw;
             height: 40vh;
         }
@@ -341,6 +342,66 @@ html.is-animating .transition-fade {
     
         }
 
+        @media screen and (min-width:768px) and (max-width: 1023px) {
 
+            .header {
+                width: 100vw;
+                height: auto;
+            }
+        
+            .header.header h1 {
+                font-size: 65px;
+            }
+
+            .nav {
+                flex-wrap: wrap;
+            }
+        
+            div.hero {
+                width: 100vw;
+                height: 40vh;
+            }
+        
+            .box-1 {
+                width: 100vw;
+                height: 50vh;
+            }
+        
+            .box-2 img {
+                width: 100vw;
+            }
+        
+            .box-3 img {
+                width: 100vw;
+                margin-bottom: 30px;
+            }
+        
+            .box-4 img {
+                width: 100vw;
+                margin-bottom: 30px;
+            }
+        
+            .box-5 img {
+                width: 100vw;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+        
+            .footer {
+                width: 100vw;
+                height: auto;
+            }
+        
+            li {
+                width: 50vw;
+                color: rgb(174, 203, 230);
+            }
+        
+            #Project-One {
+                width: 100vw;
+                flex-wrap: wrap;
+            }
+        
+            }
 
 
