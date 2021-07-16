@@ -2,7 +2,7 @@
 This is my Portfolio webpage. It was made with HTML, CSS, and Javascript. This is the second rendition.
 
 ## Screenshot
-Screen Shot <img width="1139" alt="Screen Shot 2021-07-15 at 9 29 38 PM" src="https://user-images.githubusercontent.com/53482411/125882533-8d168569-6262-4672-b0e8-17bc749832ad.png">
+<img width="1125" alt="Screen Shot 2021-07-16 at 11 10 02 AM" src="https://user-images.githubusercontent.com/53482411/125977277-afee6ea1-b6ab-4fd5-b812-bb81c6257c04.png">
 
 
 ### Live-link
