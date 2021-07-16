@@ -7,82 +7,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Josh Nolan Portfolio</title>
+    
 </head>
-<!------------------------------Header with navbar------------------------------------->
+
 
 <body>
+
+
     <header class="header">
         <h1><strong>Josh Nolan</strong></h1>
+
         <nav class="nav">
-            <a href="#About-Me">About</a>
-            <a href="#Projects">Projects</a>
-            <a href="#Contact-Me">Contact</a>
+            <ul>
+                <li><a href="./index.html">Home</a>
+                <li><a href="./projects.html">Projects</a>
+                <li><a href="#Contact-Me">Contact</a>
+            </ul>
         </nav>
+
     </header>
-    
-    
-    <div class="hero"></div>
+    <main id="swup" class="transition-fade">
 
+        <div id="About-Me"></div>
+        <section class="container-1">
 
-    <!---------------------------------About Me Section------------------------------------------->
+            <div class="hero"></div>
 
-    <section id="About-Me"></section>
-
-    <section class="container-1">
-        <h1><u><strong>About Me</strong></u></h1>
-        <section class="box-1">
-            <p><strong>My name is Josh Nolan and my mission is to create web applications that provide solutions to real world problems.(also I'd like own a boat)</strong></p>
+            <h2><u><strong>About Me</strong></u></h2>
+            <section class="box-1">
+                <p><strong>My name is Josh Nolan and my mission is to create web applications that provide solutions to
+                        real world problems.(also I'd like to own a boat)</strong></p>
+            </section>
         </section>
-    </section>
-
-    <!------------------------Section Containing Projects with images and links to repo------------------->
+    </main>
 
 
-    <h3><u><strong>Projects</strong></u></h3>
-    <div class="p1"><strong>Project One</strong></div>
-    <section class="container-2" id="Projects">
-        <div class="box-2">
-            <a href="https://angelataylor87.github.io/Brewery-Finder/">
-                <img src="./Images/stumble3.jpg" width="1000px" height="800px"></a>
-        </div>
-    </section>
-
-
-
-
-    <section class="container-3">
-
-        <div class="box-3">
-            <div><strong>Project Two</strong></div>
-            <a href="https://nolan1979.github.io/Coding-Quiz-Challenge/">
-                <img src="./Images/codingquiz.jpg" width="300px" height="400px"></a>
-        </div>
-
-
-        <div class="box-4">
-            <div><strong>Project Three</strong></div>
-            <a href="https://nolan1979.github.io/Work-Day-Scheduler/">
-                <img src="./Images/worksched.jpg" width="420px" height="400px"></a>
-        </div>
-
-
-        <div class="box-5">
-            <div><strong>Project Four</strong></div>
-        <a href="https://nolan1979.github.io/Password-Generator/">
-            <img src="./Images/password.jpg" width="420px" height="400px"></a>
-        </div>
-    </section>
-
-
-    <!--------------------------Footer with Contact information--------------------------------------------->
     <footer class="footer">
         <section id="Contact-Me"></section>
         <ul>
-            <li><u><strong>email: nolanjosh1979@gmail.com</strong></u></li>
-            <li><u><strong>mobile: 832.508.2611</strong></u></li>
+            <li> <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                    target="blank"><u><strong>LinkedIn</strong></u></a>
+            <li><u><strong>email: nolanjosh1979@gmail.com</strong></u>
+            <li><u><strong>mobile: 832.508.2611</strong></u>
         </ul>
     </footer>
 
+
+    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script> 
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
