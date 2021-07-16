@@ -1,15 +1,19 @@
 
-/* * {
+* {
     margin: 0;
     padding: 0;
-} */
+}
+
+html {
+    scroll-behavior: smooth;
+  }
 
 
 body {
     /* background: linear-gradient(0deg, #0f2637d5 10%, rgb(0, 125, 102));
     background-repeat:repeat-y; */
     background-image: url(./Images/kevin-wong-WJ_LL15Iw0I-unsplash.jpg);
-    background-repeat: repeat-y;
+    
     
     
 }
@@ -37,7 +41,7 @@ h1 {
 }
 
 @keyframes heading {
-    0%    {top: -100px}
+    0%    {top: -300px}
     100%  {top: 5px}
 }
 
