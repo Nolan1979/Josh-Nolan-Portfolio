@@ -1,15 +1,8 @@
 
-
 * {
     margin: 0;
     padding: 0;
 }
-
-
-
-
-
-
 
 
 body {
@@ -44,9 +37,9 @@ h1 {
 }
 
 
-
 .nav {
     display: flex;
+    
 }
 
 
@@ -60,7 +53,6 @@ a {
 }
 
 
-
 div.hero {
     border-radius: 50px;
     display: flex;
@@ -72,6 +64,7 @@ div.hero {
     background-size:cover;
     padding-top: 20px;
     margin-top: 20px;
+    margin-left: 20px;
     border: 8px solid#162734d5;
     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
@@ -215,18 +208,18 @@ li {
 .transition-fade {
     transition: 1s;
     opacity: 1;
-    transform: translateX(0);
-    transform-origin: left;
+    /* transform: translateX(0);
+    transform-origin: left; */
 }
 html.is-animating .transition-fade {
-    opacity: 1;
-    transform: translateX(100%);
+    opacity: 0;
+    /* transform: translateX(100%); */
 }
 
-html.is-leaving .transition-fade {
+/* html.is-leaving .transition-fade {
     opacity: 0;
     transform: translateX(0);
-}
+} */
 
 
 
