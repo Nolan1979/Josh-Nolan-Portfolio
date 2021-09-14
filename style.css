@@ -25,6 +25,7 @@ body {
     text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.678);
     height: 125px;
     padding: 15px;
+    margin: 20px;
     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
 
@@ -42,11 +43,6 @@ h1 {
     100%  {top: 5px}
 }
 
-
-.nav {
-    display: flex;
-    
-}
 
 
 a {
@@ -138,7 +134,7 @@ h3 {
 
 
 .box-2 img {
-    width: 1000px;
+    width: 420px;
     height: 400px;
     border: 10px solid #162734d5; 
     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
@@ -148,9 +144,6 @@ h3 {
 .container-3 {
     font-family: 'Megrim', cursive;
     color:rgb(174, 203, 230);
-    display: flex;
-    
-    justify-content: space-evenly;
     font-size: 40px;
     text-align: center;
 }
@@ -173,6 +166,30 @@ h3 {
 }
 
 .box-5  img {
+    width: 420px;
+    height: 400px;
+    border: 10px solid #162734d5; 
+    box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
+    border-radius: 24px;
+}
+
+.box-6  img {
+    width: 420px;
+    height: 400px;
+    border: 10px solid #162734d5; 
+    box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
+    border-radius: 24px;
+}
+
+.box-7  img {
+    width: 420px;
+    height: 400px;
+    border: 10px solid #162734d5; 
+    box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
+    border-radius: 24px;
+}
+
+.box-8  img {
     width: 420px;
     height: 400px;
     border: 10px solid #162734d5; 
@@ -266,6 +283,18 @@ html.is-animating .transition-fade {
         width: 100vw;
     }
 
+    .box-6 img {
+        width: 100vw;
+    }
+
+    .box-7 img {
+        width: 100vw;
+    }
+
+    .box-8 img {
+        width: 100vw;
+    }
+
     .footer {
         width: 100vw;
         height: auto;
@@ -319,6 +348,24 @@ html.is-animating .transition-fade {
         }
     
         .box-5 img {
+            width: 100vw;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .box-6 img {
+            width: 100vw;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .box-7 img {
+            width: 100vw;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .box-8 img {
             width: 100vw;
             margin-top: 30px;
             margin-bottom: 30px;
@@ -381,6 +428,24 @@ html.is-animating .transition-fade {
             }
         
             .box-5 img {
+                width: 100vw;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .box-6 img {
+                width: 100vw;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .box-7 img {
+                width: 100vw;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+
+            .box-8 img {
                 width: 100vw;
                 margin-top: 30px;
                 margin-bottom: 30px;
