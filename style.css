@@ -6,12 +6,10 @@
 
 html {
     scroll-behavior: smooth;
-  }
+}
 
 
 body {
-    /* background: linear-gradient(0deg, #0f2637d5 10%, rgb(0, 125, 102));
-    background-repeat:repeat-y; */
     background-image: url(./Images/kevin-wong-WJ_LL15Iw0I-unsplash.jpg);
 }
 
@@ -19,12 +17,13 @@ body {
 .header { 
     display: flex;
     justify-content: space-between;
+    text-align: center;
     color:rgb(174, 203, 230);
     background-color: #0e1820d5;
     border-radius: 24px 24px 24px 24px;
     text-shadow: 0px 5px 6px rgba(0, 0, 0, 0.678);
-    height: 125px;
-    padding: 15px;
+    height: 100px;
+    padding: 25px;
     margin: 20px;
     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
@@ -46,6 +45,7 @@ h1 {
 
 
 a {
+    text-decoration: none;
     padding: 15px;
     color:rgb(174, 203, 230);
     font-size: 30px;
@@ -59,12 +59,10 @@ div.hero {
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    padding-top: 40px;
     background-image: url("./Images/chicago.jpeg");
     background-size:cover;
     padding-top: 20px;
     margin-top: 20px;
-    margin-left: 20px;
     border: 8px solid#162734d5;
     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
 }
@@ -102,12 +100,10 @@ h3 {
 }
 
 .box-1 {
-    margin-right: 20px;
-    margin-top: 20px;
+    padding-top: 40px;
     width: 600px;
     height: 300px;
     border: 15px solid #162734d5; 
-    padding: 45px;
     box-shadow: 0px 7px 10px rgba(3, 3, 3, 0.68);
     border-radius: 50px;
     background: linear-gradient(180deg,#415c74d5 5%, rgb(174, 203, 230));
@@ -249,7 +245,7 @@ html.is-animating .transition-fade {
     }
 
     .header {
-        width: 100vw;
+        width: auto;
         height: 27vh;
     }
 
@@ -258,7 +254,7 @@ html.is-animating .transition-fade {
     }
 
     div.hero {
-        width: 100vw;
+        width: 50vw;
         height: 40vh;
     }
 
@@ -304,10 +300,8 @@ html.is-animating .transition-fade {
         width: 50vw;
         color: rgb(174, 203, 230);
     }
+}
 
-    
-
-    }
 
     @media screen and (min-width:421px) and (max-width: 767px) {
         .body {
@@ -335,6 +329,7 @@ html.is-animating .transition-fade {
     
         .box-2 img {
             width: 100vw;
+            margin-bottom: 30px;
         }
     
         .box-3 img {
